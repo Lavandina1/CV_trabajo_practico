@@ -1,14 +1,16 @@
 .main_menu_wrapper {
-    width: fit-content;
+    width: 25vw;
     float: left;
     margin-top: 0px;
     margin-right: 10px;
     height: 100vh;
-    background-color: #2196f3;
+    background-color: #ffffff;
 }
 
 .main_menu {
     width: fit-content;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 22px;
     padding: auto;
     float: left;
     height: fit-content;
