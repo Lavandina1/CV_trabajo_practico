@@ -12,6 +12,13 @@
     background-color: #ffffff;
 }
 
+@media only screen and (max-width: 650px) {
+    .main_menu_wrapper {
+        width: 30%;
+        margin-right: 7%;
+    }
+}
+
 .main_menu {
     width: fit-content;
     border-top-right-radius: 20px;
@@ -25,6 +32,12 @@
     background-color: #2196F3;
     padding: 10px;
 
+}
+
+@media only screen and (max-width: 650px) {
+    .main_menu {
+        width: 110%
+    }
 }
 
 .item_del_menu {
@@ -43,6 +56,12 @@
     text-align: center;
 }
 
+@media only screen and (max-width: 650px) {
+    .item_del_menu {
+        width: 100%
+    }
+}
+
 .item_del_menu:hover,
 .item_del_menu:focus {
     background: #8ab0df;
@@ -56,6 +75,20 @@
     border: solid 1px #203E5F;
 }
 
+
+.bio_pic {
+    float: left;
+    position: absolute;
+    left: 80%;
+}
+
+@media only screen and (max-width: 650px) {
+    .bio_pic {
+        float: left;
+        position: initial;
+        left: initial;
+    }
+}
 
 .main_text_main {
     overflow-wrap: break-word;
