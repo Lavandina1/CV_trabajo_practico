@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+
 .main_menu_wrapper {
     width: 25vw;
     float: left;
@@ -15,7 +20,6 @@
     float: left;
     height: fit-content;
     display: grid;
-    float: left;
     grid-template-columns: auto;
     gap: 10px;
     background-color: #2196F3;
@@ -50,4 +54,12 @@
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
     background: #2E5481;
     border: solid 1px #203E5F;
+}
+
+
+.main_text_main {
+    overflow-wrap: break-word;
+    float: left;
+    width: 50%;
+    margin-right: 11%;
 }
