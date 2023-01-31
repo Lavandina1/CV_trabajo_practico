@@ -8,15 +8,7 @@
     float: left;
     margin-top: 0px;
     margin-right: 10px;
-    height: 100vh;
     background-color: #ffffff;
-}
-
-@media only screen and (max-width: 650px) {
-    .main_menu_wrapper {
-        width: 30%;
-        margin-right: 7%;
-    }
 }
 
 .main_menu {
@@ -34,11 +26,6 @@
 
 }
 
-@media only screen and (max-width: 650px) {
-    .main_menu {
-        width: 110%
-    }
-}
 
 .item_del_menu {
     appearance: button;
@@ -56,11 +43,6 @@
     text-align: center;
 }
 
-@media only screen and (max-width: 650px) {
-    .item_del_menu {
-        width: 100%
-    }
-}
 
 .item_del_menu:hover,
 .item_del_menu:focus {
@@ -80,14 +62,8 @@
     float: left;
     position: absolute;
     left: 80%;
-}
-
-@media only screen and (max-width: 650px) {
-    .bio_pic {
-        float: left;
-        position: initial;
-        left: initial;
-    }
+    background-color: aquamarine;
+    padding: 62px;
 }
 
 .main_text_main {
@@ -95,4 +71,40 @@
     float: left;
     width: 50%;
     margin-right: 11%;
+}
+
+.title {
+    background-color: #2196F3;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin: 5px;
+    padding: 1px;
+}
+
+@media only screen and (max-width: 650px) {
+    .main_menu_wrapper {
+        width: 30%;
+        margin-right: 7%;
+    }
+
+    .main_menu {
+        width: 150%
+    }
+
+    .item_del_menu {
+        width: 100%
+    }
+
+    .bio_pic {
+        float: right;
+        position: initial;
+        padding: 20px;
+        margin: 4px;
+    }
+
+    .main_text_main {
+        width: 97%;
+    }
 }
